@@ -1,0 +1,16 @@
+{
+  "name": "Edpuzzle Tab Unfocus",
+  "description": "Unfocus Edpuzzle without pausing video.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://edpuzzle.com/assignments/*/watch"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}
