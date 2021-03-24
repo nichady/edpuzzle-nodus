@@ -15,9 +15,9 @@ fast.onclick = function() {
             type: "keydown",
             which: 39,
           }));
-        }, 100);
+        }, 150);
       }
     });
   });
 }
-
+// TODO add switch to DOM instead of popup
