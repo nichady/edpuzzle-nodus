@@ -1,4 +1,5 @@
 const fast = document.getElementById('fast');
+const videlement = document.querySelector("div._3ah6yl5wU0");
 
 fast.onclick = function() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
