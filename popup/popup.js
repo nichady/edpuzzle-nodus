@@ -5,8 +5,9 @@ fast.onclick = function() {
     chrome.scripting.executeScript({
       target: { tabId: tabs[0].id },
       function: function() {
+        const videlement = document.querySelector("div._3ah6yl5wU0");
         setInterval(() => {
-          document.querySelector("iframe[id^='youtube_player_']").parentNode.parentNode.parentNode.dispatchEvent(new KeyboardEvent('keydown', {
+          videlement.dispatchEvent(new KeyboardEvent('keydown', {
             bubbles: true,
             code: "ArrowRight",
             key: "ArrowRight",
