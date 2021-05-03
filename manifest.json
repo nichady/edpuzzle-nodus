@@ -1,6 +1,6 @@
 {
-  "name": "Edpuzzle Hax",
-  "description": "Unfocus Edpuzzle without pausing video.",
+  "name": "Edpuzzle Nodus",
+  "description": "Unfocus and speed up Edpuzzle.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -20,7 +20,7 @@
     "https://edpuzzle.com/assignments/*/watch"
   ],
   "action": {
-    "default_title": "Edpuzzle Tab Unfocus",
+    "default_title": "Edpuzzle Nodus",
     "default_popup": "popup/popup.html"
   }
 }
