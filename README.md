@@ -1,4 +1,6 @@
-Features
+# Edpuzzle Nodus
+A browser extension to fast forward videos on Edpuzzle.
 
-Tab Unfocus Video Still Play
-Speed Up Video
+## Features
+- Tab Unfocus Video Still Play
+- Speed Up Video
